@@ -1,7 +1,9 @@
+import Table from './components/Table'
 const App = () => {
   return (
-    <div className="App">
-
+    <div className='departures'>
+      <header>DEPARTURES</header>
+      <Table />
     </div>
   )
 }
